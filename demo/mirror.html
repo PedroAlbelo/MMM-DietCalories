@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Preview · MMM-DietCalories</title>
+  <link rel="stylesheet" href="/magicmirror-css/main.css">
+  <link rel="stylesheet" href="/modules/MMM-DietCalories/diet.css">
+  <style>
+    html { background:#000; color:#ddd; font-family:"Segoe UI",sans-serif; }
+    body { margin:0; padding:24px; }
+    .demo-nav { color:#aaa; font:16px "Segoe UI",sans-serif; margin:0 0 24px; }
+    .demo-nav a { color:#ddd; text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <nav class="demo-nav">Example data · <a href="/MMM-DietCalories/" target="_blank" rel="noopener">Open browser editor</a></nav>
+  <main class="module MMM-DietCalories" id="diet-module"></main>
+  <script src="/modules/MMM-DietCalories/diet-core.js"></script>
+  <script src="/modules/MMM-DietCalories/diet-ui.js"></script>
+  <script>new DietUI.App({mount:document.getElementById("diet-module"),mode:"mirror"});</script>
+</body>
+</html>

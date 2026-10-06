@@ -1,0 +1,24 @@
+# Installed dependencies and local files
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Diaries, previews, tests and backups
+.local/
+diagnostics/
+coverage/
+diary.json
+diary.json.*
+*.pending
+*.bak
+*.backup-*/
+*.pending-*/
+config.js
+config.js.*

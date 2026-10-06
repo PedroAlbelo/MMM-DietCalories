@@ -1,0 +1,10 @@
+{
+  "name": "mmm-dietcalories",
+  "version": "0.1.3",
+  "license": "MIT",
+  "private": true,
+  "author": "Pedro Albelo",
+  "description": "A nutrition diary for MagicMirror with a desktop/mobile browser editor and daily history.",
+  "scripts": { "test": "node scripts/test.cjs", "check": "node scripts/check.cjs", "demo": "node scripts/demo.cjs" },
+  "engines": { "node": ">=22" }
+}
