@@ -7,7 +7,7 @@ A nutrition diary for [MagicMirror²](https://magicmirror.builders/). Add and ed
 
 ![MMM-Diet](public/Nutrition.jpg)
 
-Created and directed by **Pedro Albelo**, automated tests and practical validation in a smart mirror project. Public release: **0.1.3**, in English.
+Created by **Pedro Albelo**, automated tests and practical validation in a smart mirror project. Public release: **0.1.3**.
 
 ## Features
 
@@ -127,5 +127,4 @@ The English food names and categories are editorial translations for this module
 ## License
 
 Code is licensed under the [MIT License](LICENSE).
-Food data retain the attribution documented in [NOTICE.md](NOTICE.md).
 
