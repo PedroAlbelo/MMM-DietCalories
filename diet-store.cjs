@@ -1,7 +1,5 @@
 const fs=require("node:fs/promises"),path=require("node:path"),{randomUUID}=require("node:crypto");
 const Core=require("./diet-core.js"),BASE=require("./data/foods.json");
-// Translate built-in labels saved by the earlier Portuguese public release.
-// Nutrient snapshots, weights and user-authored food names must remain intact.
 const LEGACY_MEALS={"Caf\u00e9 da manh\u00e3":"Breakfast","Almo\u00e7o":"Lunch","Jantar":"Dinner","Lanche":"Snack","Ceia":"Late-night snack"};
 const LEGACY_UNITS={"torrada pequena (aprox.)":"small toast slice (approx.)","banana m\u00e9dia sem casca (aprox.)":"medium peeled banana (approx.)","ovo m\u00e9dio (aprox.)":"medium egg (approx.)","unidade (peso informado)":"unit (entered weight)"};
 const BASE_BY_ID=new Map(BASE.map(food=>[food.id,food]));
